@@ -3,6 +3,8 @@ This repo is about the project  on PLP on Databases
 
 I ended up using human_stampede.csv
 
+_*Assignments questions are answered in the sql file in comments*_
+
 ## Difficulties encountered
 - in importing the csv file into my SQL database, i had the challenge that upon running my first sql querry of "Select * FROM table_name" it did not work, but i fixed it my reconnecting the database.
 - some values in the column _Event Name_ had value = "-" , i consider it null but they were not considred as such in sql so i to get null values i used the sql command _SELECT * FROM table_name where Event Name = "-"_ and it worked
