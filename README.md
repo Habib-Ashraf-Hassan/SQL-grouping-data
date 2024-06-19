@@ -1,5 +1,5 @@
 # SQL-grouping-data
-This repo is about the assignment on PLP on Databases: week 12
+This repo is about the project  on PLP on Databases
 
 I ended up using human_stampede.csv
 
@@ -7,7 +7,7 @@ I ended up using human_stampede.csv
 - in importing the csv file into my SQL database, i had the challenge that upon running my first sql querry of "Select * FROM table_name" it did not work, but i fixed it my reconnecting the database.
 - some values in the column _Event Name_ had value = "-" , i consider it null but they were not considred as such in sql so i to get null values i used the sql command _SELECT * FROM table_name where Event Name = "-"_ and it worked
 
-## Interesting things
+## Interesting things learnt
 Using the knowledge i gathered so far i ran SQL commands to do some data analysis and this is what i collected :
 - Total Number of Null Values: 85
 
